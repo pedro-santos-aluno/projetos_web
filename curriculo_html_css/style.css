@@ -1,0 +1,86 @@
+/* @import url(./fonts/); */
+@font-face{
+    font-family: 'hermit' ;
+    src: url(../fonts/Hermit-bold.otf);
+}
+html {
+    scroll-behavior: smooth;
+}
+.links{
+    font-size: x-small;
+}
+
+div {
+    /* background-color: #d5b59c;text-align: center;*/
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    /* font-size: medium; */
+    font-family: 'ProggyTiny';
+    background-color: #000000;
+    background-size: cover;
+}
+
+section {
+    text-align: center;
+    background-image: linear-gradient(to top, #2d4bf7, #038db8);
+    text-align: center;
+    width: 670px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px #2d4bf7;
+    
+
+}
+
+section:hover {
+    background-color: #ff0000;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+.links{
+    color: #000000;
+    text-decoration: none;
+}
+.links i {
+    font-size: x-large;
+    color: black;
+}
+/* ESTILIZAÇÃO DA BARRA DE MENU */
+
+#ini {
+    /* background-color: #ffffff; */
+}
+.menu{
+    background-color: #000000;
+}
+.menu ul li a{
+    /* background-color: #FFFFFF; */
+    color:#ffffff;
+    
+    text-decoration:none;
+}
+.menu ul li {
+    /* background-color: #000000; */
+    display: inline;
+    padding: 10px;
+}
+header{
+    /* fixa o menu no topo */
+    position: sticky;
+    top:0;
+    z-index: 5;
+}
+.sobre{
+    color:#ffffff;
+}
+/* Ctrl ; */
