@@ -1,7 +1,8 @@
 //========================= VARIÁVEIS DO MENU ===================================
-var icone_menu = document.querySelector('.celular');
-var lista_menu = document.querySelector('.opcoes');
+var iconeMenu = document.querySelector('.celular');
+var listaMenu = document.querySelector('.opcoes');
 //monitora o icone menu, se esta tendo um click
-icone_menu.addEventListener('click',function(){
-
+iconeMenu.addEventListener('click',function(){
+    alert('teste')
+    listaMenu.classList.toggle('mostrarMenu');
 });

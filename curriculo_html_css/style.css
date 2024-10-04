@@ -7,18 +7,11 @@
 html {
     scroll-behavior: smooth;
 }
-
-
-div {
-    /* background-color: #d5b59c;text-align: center;*/
-}
-
 h3 {
     text-align: center;
 }
 
 body {
-    /* font-size: medium; */
     font-family: "VT323", monospace;
     font-weight: 150;
     font-size: xx-large;
@@ -37,11 +30,7 @@ section {
     border-radius: 15px;
     margin-bottom: 20px;
     box-shadow: 10px 10px #2d4bf7;
-    
-
 }
-
-
 section:hover {
     background-color: #ff0000;
 }
@@ -63,10 +52,6 @@ ul {
     inline-size: auto;
 }
 /*============================== ESTILIZAÇÃO DA BARRA DE MENU ======================*/
-
-#ini {
-    /* background-color: #ffffff; */
-}
 .menu{
     background-color: #000000;
 }
@@ -131,5 +116,9 @@ footer{
     iframe{
         width: 250px;
     }
+}
+.mostrarMenu{
+    display: grid;
+    background-color: #000000;
 }
 /* Ctrl ; */
