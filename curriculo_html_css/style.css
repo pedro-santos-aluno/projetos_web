@@ -1,14 +1,13 @@
-/* @import url(./fonts/); */
-@font-face{
-    font-family: 'hermit' ;
-    src: url(../fonts/Hermit-bold.otf);
-}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&family=VT323&display=swap');
+
+
 html {
     scroll-behavior: smooth;
 }
-.links{
-    font-size: x-small;
-}
+
 
 div {
     /* background-color: #d5b59c;text-align: center;*/
@@ -20,7 +19,10 @@ h3 {
 
 body {
     /* font-size: medium; */
-    font-family: 'ProggyTiny';
+    font-family: "VT323", monospace;
+    font-weight: 150;
+    font-size: xx-large;
+    font-style: normal;
     background-color: #000000;
     background-size: cover;
 }
@@ -39,6 +41,7 @@ section {
 
 }
 
+
 section:hover {
     background-color: #ff0000;
 }
@@ -47,15 +50,19 @@ ul {
     list-style: none;
     text-align: left;
 }
+
+/* ============================== CONTATO ESTILIZAÇÃO ============================= */
+#contato ul li{
+    display: inline;
+    padding-inline: 35px;
+}
 .links{
+    font-size:xx-large;
     color: #000000;
     text-decoration: none;
+    inline-size: auto;
 }
-.links i {
-    font-size: x-large;
-    color: black;
-}
-/* ESTILIZAÇÃO DA BARRA DE MENU */
+/*============================== ESTILIZAÇÃO DA BARRA DE MENU ======================*/
 
 #ini {
     /* background-color: #ffffff; */
@@ -65,7 +72,7 @@ ul {
 }
 .menu ul li a{
     /* background-color: #FFFFFF; */
-    color:#ffffff;
+        color:#ffffff;
     
     text-decoration:none;
 }
@@ -83,5 +90,46 @@ header{
 .sobre{
     color:#000000;
 }
+/* ============================ LOGO =========================================== */
+#logo{
+    width: 60px;
+    height: 60px;
+    margin-bottom: -17px;
+}
+/* ============================ RODAPÉ ========================================= */
+footer{
+    /* display: inline-block; */
+    background-color: #34495e;  /*cor de fundo*/
+    color: white;               /*cor da letra*/
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    border-top: 1px solid blue;
+}
+/* ============================ CONFIG CEL ===================================== */
+.celular{
+    color:white;
+}
+.celular{
+    display: none;
+}
 
+/* adaptação para o celular - reponsividade*/
+@media (max-width: 830px){
+    .celular{
+        display: block;
+    }
+    .menu ul{
+        display: none; /*desaparece lista do menu */
+    }
+
+    section{
+        font-size: 12px;
+        max-width: 400px;
+    }
+
+    iframe{
+        width: 250px;
+    }
+}
 /* Ctrl ; */
